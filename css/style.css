@@ -28,16 +28,16 @@ h2{
     color: #404bbf;
 }
 
-.adress{
+.address{
     font-style: normal;
 }
 
-.adress-bar{
+.address-bar{
     letter-spacing: 0.02em;
     color: #434455;
 }
 
-.adress-bar:hover, .adress-bar:focus{
+.address-bar:hover, .address-bar:focus{
     color: #404bbf;
 }
 
