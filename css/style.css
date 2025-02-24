@@ -1,0 +1,75 @@
+body{
+    font-family: "Roboto", serif;
+    color: #434455;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+a{
+    text-decoration: none;
+    color: #2E2F42;
+}
+
+li{
+    list-style-type: none;
+}
+
+h2{
+    color: #2E2F42;
+}
+
+.nav-bar{
+    font-weight: 500;
+}
+
+.adress-bar{
+    font-style: normal;
+}
+
+.logo{
+    font-family: "Raleway", serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.logo span{
+    color: #4D5AE5;
+}
+
+.welcome{
+    background-color: #2E2F42;
+}
+
+h1{
+    font-size: 56px;
+    color: white;
+}
+
+button{
+    background-color: #4D5AE5;
+    color: white;
+    box-shadow: 0px, 4px, 4px, #00000026;
+    border: none;
+}
+
+.team{
+    background-color: #F4F4FD;
+}
+
+footer{
+    background-color: #2E2F42;
+    color: #F4F4FD;
+}
+
+.logo-footer{
+    color: #F4F4FD;
+    font-family: "Raleway", serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.logo-footer span {
+    color: #4D5AE5;
+}
