@@ -1,8 +1,9 @@
 body{
-    font-family: "Roboto", serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
     font-weight: 400;
     line-height: 1.5;
+    background-color: white;
 }
 
 a{
@@ -20,21 +21,38 @@ h2{
 
 .nav-bar{
     font-weight: 500;
+    letter-spacing: 0.02em;
 }
 
-.adress-bar{
+.nav-bar:hover, .nav-bar:focus{
+    color: #404bbf;
+}
+
+.adress{
     font-style: normal;
 }
 
+.adress-bar{
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.adress-bar:hover, .adress-bar:focus{
+    color: #404bbf;
+}
+
 .logo{
-    font-family: "Raleway", serif;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #4d5ae5;
 }
 
 .logo span{
-    color: #4D5AE5;
+    color: #2e2f42;
 }
 
 .welcome{
@@ -44,18 +62,57 @@ h2{
 h1{
     font-size: 56px;
     color: white;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
 }
 
 button{
     background-color: #4D5AE5;
     color: white;
-    box-shadow: 0px, 4px, 4px, #00000026;
-    border: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+button:hover, button:focus{
+    background-color: #404BBF;
+}
+
+.title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.desc{
+    letter-spacing: 0.02em
 }
 
 .team{
     background-color: #F4F4FD;
 }
+
+.title-team{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.team-card{
+    background-color: white;
+
+}
+
+
+
 
 footer{
     background-color: #2E2F42;
@@ -63,13 +120,15 @@ footer{
 }
 
 .logo-footer{
-    color: #F4F4FD;
-    font-family: "Raleway", serif;
+    color: #4D5AE5;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
 }
 
 .logo-footer span {
-    color: #4D5AE5;
+    color: #f4f4fd;
 }
